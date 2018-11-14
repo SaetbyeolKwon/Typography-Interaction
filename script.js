@@ -1,8 +1,5 @@
-const texts = ["<a href = 'https://solar-substance.glitch.me/' target = '_blank'>Box Model Example</a>"
-,"<a href = 'http://octhomework.glitch.me/' target = '_blank'>jQuery Exercise</a>"
-,"<a href = 'https://saetbyeolkwon.github.io/responsiveWeb/' target = '_blank'>Responsive Web1</a>"
-,"<a href = 'https://saetbyeolkwon.github.io/Bomb-web/' target = '_blank'>Responsive Web2</a>"
-,"<a href = 'https://solar-substance.glitch.me/' target = '_blank'>Box Model Example</a><br><a href = 'http://octhomework.glitch.me/' target = '_blank'>jQuery Practice</a><br><a href = 'https://saetbyeolkwon.github.io/responsiveWeb/' target = '_blank'>Responsive Web1</a><br><a href = 'https://saetbyeolkwon.github.io/Bomb-web/' target = '_blank'>Responsive Web2</a>"
+const texts = [
+    "<a href = 'https://solar-substance.glitch.me/' target = '_blank'>Box Model Example</a><br><a href = 'http://octhomework.glitch.me/' target = '_blank'>jQuery Practice</a><br><a href = 'https://saetbyeolkwon.github.io/responsiveWeb/' target = '_blank'>Responsive Web1</a><br><a href = 'https://saetbyeolkwon.github.io/Bomb-web/' target = '_blank'>Responsive Web2</a>"
 ]
 
 let index = 0;
@@ -14,9 +11,15 @@ let index = 0;
     // $("h2").fadeOut("slow")
     $("h2").fadeIn(1000)
     $("h2").html(texts[index]).css("font-size","80px").css("line-height","120px")
+    // let back = ["red","blue","white"];
+    // let rand = back[Math.floor(Math.random() * back.length)]
+   let r = Math.floor(Math.random() * 256)
+   let g = Math.floor(Math.random() * 256)
+   let b = Math.floor(Math.random() * 256)
+    $("body").css("background-color","rgb(" + r + "," + g + "," + b + ")")
     index++
 
-    if(index > 4){
-        index = 0;
+    if(index > 1){
+        index = 0
     }
 })
