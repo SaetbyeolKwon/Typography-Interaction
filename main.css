@@ -1,0 +1,24 @@
+body{
+    background-color:white;
+    font-family: 'IBM Plex Serif', 'Times', serif;
+    font-weight: 600;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+    background-color: blueviolet;
+}
+h1{
+    font-size: 80px;
+}
+h2{
+    font-size: 50px;
+    line-height: 120px;
+}
+.text{
+    margin: 30px;
+}
