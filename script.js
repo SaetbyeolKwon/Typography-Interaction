@@ -1,5 +1,5 @@
 const texts = [
-    "<a href = 'https://solar-substance.glitch.me/' target = '_blank'>Box Model Example</a><br><a href = 'http://octhomework.glitch.me/' target = '_blank'>jQuery Practice</a><br><a href = 'https://saetbyeolkwon.github.io/responsiveWeb/' target = '_blank'>Responsive Web1</a><br><a href = 'https://saetbyeolkwon.github.io/Bomb-web/' target = '_blank'>Responsive Web2</a><br><a href = 'peopleinspace.me' target = '_blank'>Single Serving</a>"
+    "<a href = 'https://solar-substance.glitch.me/' target = '_blank'>Box Model Example</a><br><a href = 'http://octhomework.glitch.me/' target = '_blank'>jQuery Practice</a><br><a href = 'https://saetbyeolkwon.github.io/responsiveWeb/' target = '_blank'>Responsive Web1</a><br><a href = 'https://saetbyeolkwon.github.io/Bomb-web/' target = '_blank'>Responsive Web2</a><br><a href = 'www.peopleinspace.me' target = '_blank'>Single Serving</a>"
 ]
 
 let index = 0;
